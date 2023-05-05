@@ -1,0 +1,1 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const u=require("./src/index.js"),i=require("./src/button/index.js"),r={install:e=>u.default.forEach(t=>e.use(t))};exports.IrisButton=i.default;exports.default=r;

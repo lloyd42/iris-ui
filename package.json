@@ -1,0 +1,40 @@
+{
+  "name": "@lloyd42/iris-ui",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "license": "MIT",
+  "main": "./ui/lib/index.js",
+  "module": "./ui/es/index.js",
+  "style": "dist/es/style.css",
+  "files": [
+    "ui"
+  ],
+  "keywords": [
+    "vue",
+    "ui"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lloyd42/iris-ui",
+    "directory": "packages/components"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "sass": "^1.62.1",
+    "vite": "^4.3.2",
+    "vite-plugin-vue-setup-extend": "^0.4.0"
+  }
+}
